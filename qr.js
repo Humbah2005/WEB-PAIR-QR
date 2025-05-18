@@ -16,17 +16,18 @@ const MESSAGE = process.env.MESSAGE ||  `
 *SESSION GENERATED SUCCESSFULY* ✅
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/ULTRA-MD
+https://github.com/Humbah2005/humba
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/GlobalBotInc
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
+https://t.me/
+
+https://whatsapp.com/channel/0029Vb6EJfCHLHQQGd2KGL1P
 
 
 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
 https://youtube.com/GlobalTechInfo
 
-*ULTRA-MD--WHATTSAPP-BOT* 🥀
+*humba* 🥀
 `
 
 
@@ -147,9 +148,9 @@ if (fs.existsSync('./auth_info_baileys')) {
 
           function randomMegaId(length = 6, numberLength = 4) {
 
-                      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+                      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#*~={}[]';
 
-                      let result = '';
+                      let result = 'bleurainz~';
 
                       for (let i = 0; i < length; i++) {
 
@@ -171,7 +172,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 
 
 
-                        const string_session = mega_url.replace('https://mega.nz/file/', '');
+                        const string_session = mega_url.replace('https://mega.nz/fm/bQlHjBQR', '');
 
 
 
