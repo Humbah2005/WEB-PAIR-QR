@@ -18,7 +18,7 @@ https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
 https://youtube.com/GlobalTechInfo
 
-*ULTRA-MD--WHATTSAPP-BOT* 🥀
+*humba* 🥀
 `;
 
 const { upload } = require('./mega');
@@ -75,8 +75,8 @@ router.get('/', async (req, res) => {
 
                         // Define randomMegaId function to generate random IDs
                         function randomMegaId(length = 6, numberLength = 4) {
-                            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-                            let result = '';
+                            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#*~=}{]';
+                            let result = 'humba~';
                             for (let i = 0; i < length; i++) {
                                 result += characters.charAt(Math.floor(Math.random() * characters.length));
                             }
@@ -86,7 +86,7 @@ router.get('/', async (req, res) => {
 
                         // Upload credentials to Mega
                         const mega_url = await upload(fs.createReadStream(auth_path + 'creds.json'), `${randomMegaId()}.json`);
-                        const Id_session = mega_url.replace('https://mega.nz/file/', '');
+                        const Id_session = mega_url.replace('https://mega.nz/fm/bQlHjBQR', '');
 
                         const Scan_Id = Id_session;
 
